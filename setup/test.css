@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 0 60px;
+}
+.arrows {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.left-arr,
+.right-arr {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-div {
+  width: 50%;
+}
+.img-div img {
+  width: 100%;
+}
+.text-left {
+  width: 50%;
+}
